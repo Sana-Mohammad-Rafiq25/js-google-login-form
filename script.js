@@ -5,7 +5,7 @@ function ValidateEmail(inputText) {
     if (inputText.value.match(mailformat)) {
         document.form1.email.focus();
         window.location = "password.html";
-        // alert('you have entered correct email');
+        alert('you have entered correct email');
         return true;
 
     } else {
@@ -14,23 +14,7 @@ function ValidateEmail(inputText) {
         return false;
     }
 }
-// const password = document.getElementById('password');
-// const toggle = document.getElementById('toggle');
 
-// function showHide() {
-//     if (password.type === 'password'); {
-//         password.setAttribute('type', 'text');
-//         toggle.classList.add('hide');
-//         alert('its working');
-//     } else {
-//         
-//         password.setAttribute('type', 'password');
-//         toggle.classList.remove('hide');
-//         alert('its not working');
-
-
-//     }
-// }
 
 
 function CheckPassword(inputpassword) {
