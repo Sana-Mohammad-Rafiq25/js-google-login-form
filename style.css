@@ -84,6 +84,19 @@
         margin-top: 5%;
         /* position: relative; */
     }
+    
+    .password-box>input {
+        padding: 20px;
+        padding-left: 18%;
+        padding-right: 18%;
+        border-radius: 7px;
+        border: 1px solid lightgrey;
+        color: 2px solid #C4C6C9;
+        justify-content: left;
+        font-size: medium;
+        font-style: bold;
+        margin-top: 5%;
+    }
     /*     
     input {
         height: 100%;
@@ -157,10 +170,6 @@
     margin-right: 50%;  */
         /* margin-bottom: 5%; */
         /* margin-bottom: 50%; */
-    }
-    
-    li {
-        list-style: none;
     }
     
     footer>ul>li>a {
